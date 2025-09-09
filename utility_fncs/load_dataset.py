@@ -37,3 +37,7 @@ print("DataFrame 'polynomial50_df' for 'polynomial50.csv' has been created in th
 insurance_claim_csv_path = os.path.join(data_dir, 'insurance_claim.csv')
 insurance_claim_df=pd.read_csv(insurance_claim_csv_path)
 print("DataFrame 'insurance_claim_df' for 'insurance_claim.csv' has been created in the data_loader module.")
+
+heart_csv_path = os.path.join(data_dir, 'heart.csv')
+heart_df=pd.read_csv(heart_csv_path)
+print("DataFrame 'heart_df' for 'heart.csv' has been created in the data_loader module.")
