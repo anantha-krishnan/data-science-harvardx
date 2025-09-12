@@ -41,3 +41,11 @@ print("DataFrame 'insurance_claim_df' for 'insurance_claim.csv' has been created
 heart_csv_path = os.path.join(data_dir, 'heart.csv')
 heart_df=pd.read_csv(heart_csv_path)
 print("DataFrame 'heart_df' for 'heart.csv' has been created in the data_loader module.")
+
+Advertising_adj_csv_path = os.path.join(data_dir, 'Advertising_adj.csv')
+Advertising_adj_df=pd.read_csv(Advertising_adj_csv_path)
+print("DataFrame 'Advertising_adj_df' for 'Advertising_adj.csv' has been created in the data_loader module.")
+
+covid_csv_path = os.path.join(data_dir, 'covid.csv')
+covid_df=pd.read_csv(covid_csv_path)
+print("DataFrame 'covid_df' for 'covid.csv' has been created in the data_loader module.")
